@@ -8,12 +8,14 @@ import Stack from 'react-bootstrap/Stack';
 
 function HorizontalExample() {
   return (
-    <Stack direction="horizontal" gap={3} >
-      <Carta />
-	  <Carta />
-	  <Carta />
-	  <Carta />
-    </Stack>
+	<div className="card-container">
+		<Stack direction="horizontal" gap={3} >
+			<Carta />
+			<Carta />
+			<Carta />
+			<Carta />
+		</Stack>
+	</div>
   );
 }
 
