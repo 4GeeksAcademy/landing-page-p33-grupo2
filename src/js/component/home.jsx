@@ -1,20 +1,20 @@
 import React from "react";
-import Card from "./Card.jsx"
+import Carta from "./Card.jsx";
 
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+
 
 //create your first component
-const Home = () => {
-	return (
-		<>
-			<Card />
-			<Card />
-			<Card />
-			<Card />
-		</>
-		
-	);
-};
+import Stack from 'react-bootstrap/Stack';
 
-export default Home;
+function HorizontalExample() {
+  return (
+    <Stack direction="horizontal" gap={3} >
+      <Carta />
+	  <Carta />
+	  <Carta />
+	  <Carta />
+    </Stack>
+  );
+}
+
+export default HorizontalExample;
