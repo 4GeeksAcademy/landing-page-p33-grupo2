@@ -2,7 +2,7 @@ import React from "react";
 
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import Image from '/workspaces/landing-page-p33-grupo2/src/img/imagen.jpg';
+import Image from '/workspaces/landing-page-p33-grupo2/src/img/henry-be-IicyiaPYGGI-unsplash.jpg';
 
 function Carta () {
   return (
