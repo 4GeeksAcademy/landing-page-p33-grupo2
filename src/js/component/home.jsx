@@ -9,7 +9,7 @@ import Stack from 'react-bootstrap/Stack';
 function HorizontalExample() {
   return (
 	<div className="card-container">
-		<Stack direction="horizontal" gap={3} >
+		<Stack direction="horizontal" gap={4} >
 			<Carta />
 			<Carta />
 			<Carta />
