@@ -1,3 +1,9 @@
+1. Alejandro Perez- Navbar
+2. Andy Herrera- Jumbotron
+3. Maria F. Gonzalez y Carlor Alzate - Cards
+4. Jose Alvarez y Jose Angel Parra - React
+
+
 # Hello World with React boilerplate
 
 Start coding a react application
