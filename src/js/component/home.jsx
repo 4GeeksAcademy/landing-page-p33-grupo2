@@ -1,21 +1,23 @@
 import React from "react";
+import Stack from "react-bootstrap/Stack";
 import Carta from "./Card.jsx";
-
-
-
-//create your first component
-import Stack from 'react-bootstrap/Stack';
+import WelcomeComponent from "./Jumbotron.jsx"; 
 
 function HorizontalExample() {
   return (
-	<div className="card-container">
-		<Stack direction="horizontal" gap={4} >
-			<Carta />
-			<Carta />
-			<Carta />
-			<Carta />
-		</Stack>
-	</div>
+    <div className="container"> 
+     
+      <WelcomeComponent />
+
+      <div style={{ marginTop: '10px' }}>
+        <Stack direction="horizontal" gap={3}>
+          <Carta />
+          <Carta />
+          <Carta />
+          <Carta />
+        </Stack>
+      </div>
+    </div>
   );
 }
 
