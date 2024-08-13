@@ -7,7 +7,7 @@ import Image from '/workspaces/landing-page-p33-grupo2/src/img/henry-be-IicyiaPY
 function Carta () {
   return (
     <div className="card-container">
-        <Card style={{ width: '325px'}} >
+        <Card>
             <Card.Img variant="top" src={Image}/>
             <Card.Body>
                 <Card.Title>Card Title</Card.Title>
@@ -19,7 +19,7 @@ function Carta () {
             </Card.Body>
         </Card>
     </div>
-  );
+  ); 
 }
 
 export default Carta;
