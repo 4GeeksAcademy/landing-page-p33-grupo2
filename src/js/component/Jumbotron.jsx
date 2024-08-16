@@ -19,7 +19,6 @@ const styles = {
     padding: '20px',
     borderRadius: '8px',
     textAlign: 'left',
-    width: '1350px'
 
   },
   header: {
