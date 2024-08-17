@@ -6,7 +6,7 @@ import Image from '/workspaces/landing-page-p33-grupo2/src/img/henry-be-IicyiaPY
 
 function Carta () {
   return (
-    <div className="card-container">
+    <div className="card-container p-2 col-12 col-sm-6 col-md-3" >
         <Card>
             <Card.Img variant="top" src={Image}/>
             <Card.Body>

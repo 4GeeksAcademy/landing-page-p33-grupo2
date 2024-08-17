@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg bg-body-tertiary bg-dark font-family-sans-serif: Roboto">
+        <nav className=" fixed-top navbar navbar-expand-lg bg-body-tertiary bg-dark font-family-sans-serif: Roboto">
             <div className="container-fluid">
                 <a className="navbar-brand text-light" href="#">Start Bootstrap</a>
                 <button

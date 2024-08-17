@@ -10,14 +10,16 @@ function HorizontalExample() {
     <div className="container"> 
 
       <Navbar/>
+      <div style={{marginTop:"5rem", marginBottom:"5rem"}}>
       <WelcomeComponent />
       <div style={{ marginTop: '10px' }}>
-        <Stack direction="horizontal" gap={3}>
+        <div className="d-flex  justify-content-between flex-wrap">
           <Carta />
           <Carta />
           <Carta />
           <Carta />
-        </Stack>
+        </div>
+      </div>
       </div>
       <Footer/>
 
