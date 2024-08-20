@@ -7,7 +7,7 @@ import Footer from "./Footer.jsx"
 
 function HorizontalExample() {
   return (
-    <div className="container"> 
+    <div> 
 
       <Navbar/>
       <div style={{marginTop:"5rem", marginBottom:"5rem"}}>
